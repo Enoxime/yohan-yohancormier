@@ -1,0 +1,50 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Notepad++ backups #
+*.bak
+
+# Linux #
+*~
+
+### SublimeText ###
+# SublimeText project files
+*.sublime-workspace
+
+### KomodoEdit ###
+*.komodoproject
+.komodotools
+
+# Personnal configuration #
+######################
+.htaccess
+config/local.conf.php
+
+templates_c/*
+!templates_c/.htaccess
+
+admin/templates_c/*
+!admin/templates_c/note.txt

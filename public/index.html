@@ -1,0 +1,79 @@
+<!doctype html>
+<html class="no-js" lang="fr-CA">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--<link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css' />
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <!--[if lt IE 8]>
+      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div id="t1">
+      <div id="t2">
+        <div id="t3">
+          <div id="t4">
+            <div id="section">
+              <ul>
+                <a href="#t1">
+                  <li class="icon fa fa-home" id="uno"></li>
+                </a>
+                <a href="#t2">
+                  <li class="icon fa fa-keyboard-o" id="dos"></li>
+                </a>
+                <a href="#t3">
+                  <li class="icon fa fa-coffee" id="tres"></li>
+                </a>
+                <a href="#t4">
+                  <li class="icon fa fa-dribbble" id="cuatro"></li>
+                </a>
+              </ul>
+
+              <section class="page" id="p1">
+                <li class="icon fa fa-home">
+                  <span class="title">Home</span>
+                  <span class="hint">Like this pen to see the magic!...<br/> Just kidding, it won't happen anything but I'll be really happy If you do so.</span>
+                </li>
+              </section>
+              <section class="page" id="p2">
+                <li class="icon fa fa-keyboard-o"><span class="title">Type</span></li>
+              </section>
+              <section class="page" id="p3">
+                <li class="icon fa fa-coffee"><span class="title">Coffee</span></li>
+              </section>
+              <section class="page" id="p4">
+                <li class="icon fa fa-dribbble"><span class="title">Dribbble</span><span class="hint"><a href="https://dribbble.com/rupok" target="_blank">Follow me on Dribbble</span></li>
+              </section>
+                <p class="credit"> Original Pen by <a href="http://codepen.io/hrtzt/">Alberto Hartzet</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      var el = document.getElementsByTagName('a');
+      console.log(el);
+      for (var i = 0; i < el.length; i++){
+        el[i].onclick = function(e) {
+          e.scrollIntoView(true);
+        }
+      }
+      /*var stoping = function(e) {
+        e.preventDefault();
+      }
+      el.addEventListener("click", stoping);*/
+    </script>
+    <script type='text/javascript' id="__bs_script__">//<![CDATA[
+    document.write("<script async src='http://HOST:3334/browser-sync/browser-sync-client.2.1.6.js'><\/script>".replace(/HOST/g, location.hostname).replace(/PORT/g, location.port));
+//]]></script>
+  </body>
+</html>
